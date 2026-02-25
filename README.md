@@ -1,4 +1,3 @@
-# GRA-INTER
+# GRA-INTER-Assignment
 
-Intermediate computer graphics
-
+Assignetn for Intermediate computer graphicsssss
