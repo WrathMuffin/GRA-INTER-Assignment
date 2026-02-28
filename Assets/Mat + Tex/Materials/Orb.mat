@@ -15,20 +15,18 @@ Material:
   - _APPLY_FLAT_SHADING_NO
   - _APPLY_RIM_YES
   - _ENABLE_WAVES_YES
-  - _SURFACE_TYPE_TRANSPARENT
-  - _WATER_TYPE_WHIRLPOOL
+  - _WATER_TYPE_STILL
   m_InvalidKeywords:
   - _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2000
   stringTagMap:
-    RenderType: Transparent
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   - SHADOWCASTER
-  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -100,18 +98,18 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Blend: 0
+    - _Blend: 3
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 0
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
-    - _DstBlendAlpha: 10
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _ENABLE_WAVES: 0
     - _Edge_blend: 0.09
     - _EnvironmentReflections: 1
@@ -129,28 +127,28 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 0
-    - _Rim_glow: 15
+    - _Rim_glow: 2.5
     - _Rim_power: 10
-    - _Ripple_density: 10
-    - _Ripple_egde_sharpness: 0.55
+    - _Ripple_density: 3
+    - _Ripple_egde_sharpness: 0.597
     - _Ripple_shininess: 0.39
-    - _Ripple_speed: 0.3
+    - _Ripple_speed: 5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Spin_speed: 10
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Surface: 1
+    - _Surface: 0
     - _Sway_strength: 1
     - _Transparency: 1
-    - _WATER_TYPE: 2
+    - _WATER_TYPE: 0
     - _Wave_height: 0.03
     - _Wave_speed: 5
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZTest: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
