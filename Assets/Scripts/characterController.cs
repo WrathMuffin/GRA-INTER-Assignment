@@ -80,7 +80,7 @@ public class characterController : MonoBehaviour
         }
 
         float speed = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z).magnitude;
-        playerAnime.SetFloat("speed", speed);// * 10f);
+        playerAnime.SetFloat("speed", speed * 10f);
         playerAnime.SetBool("isGrounded", isGrounded);
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift) && isGrounded;
