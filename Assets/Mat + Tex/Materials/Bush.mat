@@ -109,7 +109,11 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 0
+<<<<<<< Updated upstream
     - _Cutoff: 0.5
+=======
+    - _Cutoff: 0.939
+>>>>>>> Stashed changes
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
